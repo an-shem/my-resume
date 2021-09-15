@@ -44,7 +44,6 @@ address {
 .aside {
 	padding: 30px;
 	width: 700px;
-	height: 100%;
 	background-color: #426e86;
 }
 
@@ -87,6 +86,10 @@ address {
 	color: #f4d5bb;
 }
 
+.contacts-link:hover {
+	color: #cb946efa;
+}
+
 .contacts-svg {
 	width: 20px;
 	height: 20px;
@@ -112,17 +115,7 @@ address {
 	list-style-type: square;
 	color: #ff8d3f;
 }
-/* .hard-skills-list {
-	height: 240px;
-	flex-wrap: wrap;
-} */
 
-/* .hard-skills-item {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 1.2;
-	letter-spacing: 0.03em;
-} */
 .hard-skills-list span {
 	color: #f4d5bb;
 }
@@ -167,7 +160,6 @@ address {
 }
 
 .titel-section {
-	/* margin-bottom: 20px; */
 	padding: 8px;
 	font-weight: 700;
 	font-size: 20px;
@@ -182,6 +174,31 @@ address {
 	margin-top: 10px;
 }
 
+/* --- PROJECTS --- */
+
+.project {
+	padding-top: 10px;
+	padding-left: 30px;
+	font-weight: 700;
+	list-style-type: square;
+	color: #ff8d3f;
+}
+
+.project-name {
+	font-size: 20px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #ff8d3f;
+}
+
+.project-description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #2c4a52;
+}
+
 /* --- WORK EXPERIENCE --- */
 
 .work {
@@ -189,7 +206,6 @@ address {
 }
 
 .work-titel {
-	/* margin-bottom: 4px; */
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 1.36;
@@ -219,7 +235,6 @@ address {
 }
 
 .institution-titel {
-	/* margin-bottom: 4px; */
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 1.36;
@@ -228,7 +243,6 @@ address {
 }
 
 .institution-profession {
-	/* margin-bottom: 4px; */
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.36;
