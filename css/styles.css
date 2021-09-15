@@ -42,7 +42,7 @@ address {
 /* --- ASIDE --- */
 
 .aside {
-	padding: 30px;
+	padding: 40px;
 	width: 700px;
 	background-color: #426e86;
 }
@@ -50,7 +50,7 @@ address {
 .my-foto {
 	margin: 0 auto;
 	margin-bottom: 60px;
-	width: 100%;
+	width: 70%;
 	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
 }
 
@@ -62,7 +62,6 @@ address {
 	line-height: 1.2;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
-	text-decoration: underline;
 	color: #ff8d3f;
 }
 
@@ -160,14 +159,14 @@ address {
 }
 
 .titel-section {
-	padding: 8px;
+	/* padding: 8px; */
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 1.36;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #2c4a52;
-	background-color: #eadbc2;
+	color: #426e86;
+	/* background-color: #eadbc2; */
 }
 
 .description {
@@ -189,6 +188,10 @@ address {
 	line-height: 1.36;
 	letter-spacing: 0.03em;
 	color: #ff8d3f;
+}
+
+.project-name:hover {
+	color: #ec6c00;
 }
 
 .project-description {
@@ -247,12 +250,12 @@ address {
 	font-size: 18px;
 	line-height: 1.36;
 	letter-spacing: 0.03em;
-	color: #756867;
+	color: #65726e;
 }
 .date {
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.36;
 	letter-spacing: 0.03em;
-	color: #a8a8a8;
+	color: #8f8f8f;
 }
