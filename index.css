@@ -1,0 +1,244 @@
+/* Сбрасываю отступы всм элементам */
+*,
+*::before,
+*::after {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Общие сбросы */
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	color: #2f3131;
+}
+
+ul {
+	list-style: none;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+address {
+	font-style: normal;
+}
+
+/* --- Style Container --- */
+
+.container {
+	display: flex;
+	max-width: 1200px;
+	margin: 20px auto;
+	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
+}
+
+/* --- ASIDE --- */
+
+.aside {
+	padding: 30px;
+	width: 700px;
+	height: 100%;
+	background-color: #426e86;
+}
+
+.my-foto {
+	margin: 0 auto;
+	margin-bottom: 60px;
+	width: 100%;
+	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
+}
+
+.titel-aside {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.2;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #ff8d3f;
+}
+
+/* --- CONTACTS --- */
+
+.contacts-list {
+	display: flex;
+	padding-left: 10px;
+	flex-direction: column;
+}
+
+.contacts-item {
+	margin-bottom: 6px;
+}
+
+.contacts-link {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	color: #f4d5bb;
+}
+
+.contacts-svg {
+	width: 20px;
+	height: 20px;
+	fill: #ff8d3f;
+}
+
+/* --- HARD SKILLS */
+
+.wrap-skills {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hard-skills-list,
+.soft-skills-list {
+	display: flex;
+	padding-left: 30px;
+	flex-direction: column;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	list-style-type: square;
+	color: #ff8d3f;
+}
+/* .hard-skills-list {
+	height: 240px;
+	flex-wrap: wrap;
+} */
+
+/* .hard-skills-item {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+} */
+.hard-skills-list span {
+	color: #f4d5bb;
+}
+
+.soft-skills-list span {
+	font-size: 20px;
+	color: #f4d5bb;
+}
+
+/* --- MAIN --- */
+
+.main {
+	width: 100%;
+	padding: 20px;
+	background-color: #f8f1e563;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #2c4a52;
+}
+
+.titel-name {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	border-bottom: 2px solid #2c4a52;
+	color: #2c4a52;
+}
+
+.titel-speciality {
+	color: #65726e;
+}
+
+/* --- SECTION --- */
+
+.section {
+	margin-top: 30px;
+}
+
+.titel-section {
+	/* margin-bottom: 20px; */
+	padding: 8px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #2c4a52;
+	background-color: #eadbc2;
+}
+
+.description {
+	margin-top: 10px;
+}
+
+/* --- WORK EXPERIENCE --- */
+
+.work {
+	padding-top: 10px;
+}
+
+.work-titel {
+	/* margin-bottom: 4px; */
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #65726e;
+}
+
+.work-titel span {
+	color: #ff8d3f;
+}
+
+.work-list {
+	margin-top: 10px;
+	padding-left: 30px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #2c4a52;
+	list-style-type: square;
+}
+
+/* --- EDUCATION ---  */
+
+.institution {
+	padding-top: 10px;
+}
+
+.institution-titel {
+	/* margin-bottom: 4px; */
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #ff8d3f;
+}
+
+.institution-profession {
+	/* margin-bottom: 4px; */
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #756867;
+}
+.date {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.36;
+	letter-spacing: 0.03em;
+	color: #a8a8a8;
+}
