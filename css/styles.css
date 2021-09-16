@@ -102,25 +102,19 @@ address {
 	justify-content: space-between;
 }
 
-.hard-skills-list,
-.soft-skills-list {
+.skills-list {
 	display: flex;
 	padding-left: 30px;
 	flex-direction: column;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 	list-style-type: square;
 	color: #ff8d3f;
 }
 
-.hard-skills-list span {
-	color: #f4d5bb;
-}
-
-.soft-skills-list span {
-	font-size: 20px;
+.skills-list span {
 	color: #f4d5bb;
 }
 
