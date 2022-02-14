@@ -35,8 +35,8 @@ address {
 .container {
 	display: flex;
 	max-width: 1200px;
-	/* margin: 20px auto;
-	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%); */
+	margin: 20px auto;
+	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
 }
 
 /* --- ASIDE --- */
@@ -50,7 +50,7 @@ address {
 .my-foto {
 	margin: 0 auto;
 	margin-bottom: 60px;
-	width: 70%;
+	width: 80%;
 	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
 }
 
