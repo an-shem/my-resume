@@ -35,15 +35,15 @@ address {
 .container {
 	display: flex;
 	max-width: 1200px;
-	margin: 20px auto;
-	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
+	/* margin: 20px auto;
+	box-shadow: 5px 9px 20px rgb(0 0 0 / 15%); */
 }
 
 /* --- ASIDE --- */
 
 .aside {
 	padding: 40px;
-	width: 700px;
+	width: 550px;
 	background-color: #426e86;
 }
 
@@ -95,12 +95,7 @@ address {
 	fill: #ff8d3f;
 }
 
-/* --- HARD SKILLS */
-
-.wrap-skills {
-	display: flex;
-	justify-content: space-between;
-}
+/* --- SKILLS ---*/
 
 .skills-list {
 	display: flex;
@@ -143,6 +138,9 @@ address {
 }
 
 .titel-speciality {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.36;
 	color: #65726e;
 }
 
@@ -153,18 +151,16 @@ address {
 }
 
 .titel-section {
-	/* padding: 8px; */
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.36;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #426e86;
-	/* background-color: #eadbc2; */
 }
 
 .description {
-	margin-top: 10px;
+	margin-top: 16px;
 }
 
 /* --- PROJECTS --- */
